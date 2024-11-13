@@ -76,6 +76,8 @@ h6,
 /*** Button ***/
 .btn {
     transition: .5s;
+    padding: 10px 22px !important;
+    font-size: 14px !important;
 }
 
 .btn.btn-primary-gradient,
@@ -548,8 +550,13 @@ h1,h2,h3,h4,h5,p,a{
     -webkit-text-fill-color: transparent;
     
 }
-.banner-heading{font-family: mainfontbold !important;}
-
+.banner-heading{
+    font-family: mainfontbold !important;
+    margin-bottom: 6px !important;
+}
+.banner-para{
+    font-size: 14px !important;
+}
 .heading-star{    
     width: 35px;
     position: relative;
@@ -588,7 +595,7 @@ h1,h2,h3,h4,h5,p,a{
 .btn-trans{
     border: 2px solid #7136d7 !important;
     background: #040113 !important;
-    padding: 14px 3rem !important;
+    padding: 9px 22px !important;
 }
 
 .box-girds {
