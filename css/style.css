@@ -685,6 +685,12 @@ display: inline-block;
     background-size: cover;
     padding-top: 80px;
 }
+.feature-section-bg-02{
+    background: url(../img/feature-bg-02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+}
 .black-font{
     color: #000;
 }
@@ -784,21 +790,14 @@ display: inline-block;
     padding: 16px;
 }
 
+.p-l-24{
+    padding-left: 24px !important;
+}
 .startup-row-bg{
     background: url(../img/startup-img/row-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 60px 0;
-}
-.p-l-24{
-    padding-left: 24px !important;
-}
-
-.startup-row-bg p{
-    font-size: 14px;
-}
-.startup-row-bg-2 p{
-    font-size: 14px;
 }
 
 .startup-row-bg-2{
@@ -807,6 +806,32 @@ display: inline-block;
     background-size: cover;
     margin: 60px 0;
 }
+.startup-row-bg-dark{
+    background: url(../img/startup-img/row-bg-dark.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 60px 0;
+}
+.startup-row-bg-2-dark{
+    background: url(../img/startup-img/row-bg-2-dark.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 60px 0;
+}
+
+.startup-row-bg p{
+    font-size: 14px;
+}
+.startup-row-bg-2 p{
+    font-size: 14px;
+}
+.startup-row-bg-dark p{
+    font-size: 14px;
+}
+.startup-row-bg-2-dark p{
+    font-size: 14px;
+}
+
 
 
 .templates-section-bg{
@@ -958,4 +983,40 @@ display: inline-block;
     font-weight: normal !important;
     padding: 18px !important;
     font-family: 'mainfont';
+}
+
+
+.custom-bg-02 {
+    background: url(../img/feature-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 480px;
+}
+.banner-heading-02 {
+    font-weight: 900 !important;
+    font-size: 46px;
+    color: #fff;
+    font-family: mainfontbold !important;
+    margin-bottom: 28px;
+}
+
+.banner-breadcomb {
+    background: none !important;
+    border: 1px solid #dcdcdc !important;
+    padding: 12px 43px !important;
+    margin-bottom: 26px !important;
+}
+.c-m-b{
+    margin-bottom: 150px;
+}
+.c-p-b{
+    padding-bottom: 150px;
+}
+
+
+.startups-section-bg-02{
+    background: url(../img/startup-img/startups-bg-02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
 }
