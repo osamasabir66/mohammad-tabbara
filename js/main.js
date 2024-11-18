@@ -105,4 +105,47 @@
 
 
 
+let slideIndex06 = 1;
+showSlides06(slideIndex06);
+
+function plusSlides06(n) {
+  showSlides06(slideIndex06 += n);
+}
+
+function currentSlide(n) {
+  showSlides06(slideIndex06 = n);
+}
+
+function showSlides06(n) {
+  let i;
+  let slides = document.getElementsByClassName("project-detail");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex06 = 1}    
+  if (n < 1) {slideIndex06 = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex06-1].style.display = "block";  
+  dots[slideIndex06-1].className += " active";
+}
   
+
+
+
+
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" tablinksactive", "");
+    }
+    document.getElementById(cityName).style.display = "flex";
+    evt.currentTarget.className += " tablinksactive";
+  }

@@ -929,6 +929,7 @@ display: inline-block;
     transition: .5s;
     padding: 0px;
     background: #dcdcdc !important;
+    margin: 30px 0;
 }
 
 .articles-item:hover {
@@ -1013,6 +1014,15 @@ display: inline-block;
     font-family: mainfontbold !important;
     margin-bottom: 28px;
 }
+.banner-heading-03 {
+    font-weight: 900 !important;
+    font-size: 46px;
+    font-family: mainfontbold !important;
+    margin-bottom: 28px;
+    background: -webkit-linear-gradient(40deg, var(--primary), #AF36D7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 .banner-breadcomb {
     background: none !important;
@@ -1049,6 +1059,15 @@ display: inline-block;
 
 .purple-border-b{
     border-bottom: 4px solid #364DD7;
+}
+.purple-bg{
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary)) !important;
+}
+
+.purple-font{
+    background: -webkit-linear-gradient(40deg, var(--primary), #AF36D7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .about-number{
@@ -1136,10 +1155,24 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 650px;
-  position: relative;
-  margin: auto;
-}
+    max-width: 650px;
+    position: relative;
+    margin: auto;
+  }
+  /* Slideshow container */
+  .slideshow-container-02 {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  /* Slideshow container */
+  .slideshow-container img {
+border-radius: 10px;
+    }
+    /* Slideshow container */
+    .slideshow-container-02 img{
+        border-radius: 10px;
+    }
 
 /* Next & previous buttons */
 .prev, .next {
@@ -1213,4 +1246,136 @@ img {vertical-align: middle;}
     background-size: cover;
     padding-top: 30px;
     padding-bottom: 160px;
+}
+
+
+
+.project-d-item h1{
+    background: -webkit-linear-gradient(40deg, var(--primary), #AF36D7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder !important;
+    font-family: 'mainfontbold' !important;
+    padding: 0px 0 10px 0;
+    font-size: 36px;
+    position: relative;
+}
+
+.project-d-item h5{
+    font-weight: bolder !important;
+    padding: 10px 0;
+    font-size: 26PX;
+}
+
+.project-d-item p{
+    margin-bottom: 30px;
+    color: #000;
+}
+.project-d-item img{
+    width: 100%;
+    border-radius: 8px;
+    padding: 30px 0;
+
+}
+
+.project-d-section-bg{
+    background: url(../img/project-d-bg.png);
+    background-repeat: repeat-y;
+    background-size: contain;
+    padding-top: 80px;
+}
+
+.footer-mount {
+    position: absolute;
+    z-index: 0;
+    bottom: -8px;
+    width: 100%;
+}
+
+.custom-bg-04 {
+    background: url(../img/project-d-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 360px;
+}
+
+.p-6em{
+    padding: 6rem 0 0 0 !important;
+}
+
+.m-b-120{
+    margin-bottom: 120px !important;
+}
+
+.read-blog{
+    background: rgb(47 47 47 / 35%) !important;
+    padding: 7px 26px !important;
+    margin-bottom: 26px !important;
+}
+
+.custom-bg-05 {
+    background: url(../img/project-d-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.tablinks:hover{
+    background: linear-gradient(43deg, var(--secondary), var(--primary));
+    border-radius: 5px 5px 16px 5px !important;
+    color: #fff;
+    outline: none;
+    box-shadow: none;
+}
+.tablinks:focus{
+    background: linear-gradient(43deg, var(--secondary), var(--primary));
+    border-radius: 5px 5px 16px 5px !important;
+    color: #fff;
+    outline: none;
+    box-shadow: none;
+}
+.tablinksactive{
+    background: linear-gradient(43deg, var(--secondary), var(--primary));
+    border-radius: 5px 5px 16px 5px !important;
+    color: #fff;
+    outline: none;
+    box-shadow: none;
+}
+
+.tabcontent {
+    display: none;
+}
+
+.tab{
+    margin-bottom: 50px;
+}
+
+.on{
+    display: flex;
+}
+
+.searchbar{
+    border: 2px solid #3c4bd7;
+    border-radius: 5px 5px 16px 5px !important;
+    width: 250px;
+    float: right;
+}
+.searchbar input{
+    border: none;
+    box-shadow: none;
+    outline: none;
+    padding: 5px 10px;
+    width: 210px;
+}
+.searchbar button {
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    padding: 0px;
+}
+.searchbar button img{
+    position: relative;
+    bottom: 3px;
 }
