@@ -159,7 +159,7 @@ h6,
 .navbar-light .navbar-nav .nav-link {
     position: relative;
     margin-right: 25px;
-    padding: 45px 0;
+    padding: 8px 10px !important;
     font-family: mainfont !important;
     font-size: 13px;
     font-weight: 500;
@@ -168,27 +168,10 @@ h6,
     transition: .5s;
 }
 
-.navbar-light .navbar-nav .nav-link::before {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 0;
-    top: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    border: 10px solid;
-    border-color: var(--light) transparent transparent transparent;
-    transition: .5s;
-}
 
 .sticky-top.navbar-light .navbar-nav .nav-link {
     padding: 20px 0;
     color: #fff !important;
-}
-
-.navbar-light .navbar-nav .nav-link:hover::before,
-.navbar-light .navbar-nav .nav-link.active::before {
-    top: 0;
 }
 
 .navbar-light .navbar-brand h1 {
@@ -249,11 +232,14 @@ h6,
         top: 0;
         left: 0;
         z-index: 999;
+        margin-top: 30px;
     }
-    
     .sticky-top.navbar-light {
         position: fixed;
         background: #0a0e17;
+        margin-top: 0;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
     }
 
     .sticky-top.navbar-light .navbar-nav .nav-link::before {
@@ -570,6 +556,7 @@ h1,h2,h3,h4,h5,p,a{
     top: 5px;
     width: 100%;
     padding: 18px;
+    max-height: 845px;
 }
 
 .c-p-l{
@@ -999,8 +986,15 @@ display: inline-block;
     background: url(../img/feature-banner.png);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 480px;
+    min-height: 580px;
 }
+
+@media (max-width: 1392px) {
+    .custom-bg-02 {
+        min-height: 480px;
+    }
+}
+
 .custom-bg-03 {
     background: url(../img/about-banner.png);
     background-repeat: no-repeat;
@@ -1378,4 +1372,26 @@ border-radius: 10px;
 .searchbar button img{
     position: relative;
     bottom: 3px;
+}
+.banner-breadcomb::after {
+    background: none !important;}
+    /* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+
+
+.nav-item:hover{
+    background: #ffffff36;
+    padding: 6px 10px;
+    border-radius: 1px 1px 11px 1px !important;
 }
