@@ -1591,6 +1591,7 @@ input[type=number] {
     margin-bottom: 42px;
 }
 
+
 .p-t-b-30{
     padding: 30px 0;
 }
@@ -1740,6 +1741,80 @@ font-size: 16px;
     font-weight: normal !important;
     margin: 0 0 10px 0 !important;
 }
+
+.tab-m {
+    background: #dedede;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.mobile-tab {
+    font-size: 13px !important;
+    padding: 10px 20px !important;
+    border-radius: 10px !important;
+}
+.experience-item-m {
+    padding-left: 20px;
+    margin-left: 20px;
+    border-left: 1px solid #dedede;
+}
+
+.experience-item-m h1{
+    background: -webkit-linear-gradient(40deg, var(--primary), #AF36D7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder !important;
+    font-family: 'mainfontbold' !important;
+    padding: 0px 0 10px 0;
+    font-size: 24px;
+    position: relative;
+}
+
+.experience-item-m h2{
+    background: -webkit-linear-gradient(40deg, var(--primary), #AF36D7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder !important;
+    font-family: 'mainfontbold' !important;
+    padding: 0px 0 10px 0;
+    font-size: 1.25rem;
+}
+
+.experience-item-m li{
+    margin-bottom: 14px;
+    color: #666666;
+}
+.mobile-rocket{
+    position: absolute;
+    left: 16px;
+    top: -30px;
+}
+.edu-m{
+    padding: 0px;
+    margin: 30px 15px 0 15px;
+}
+.about-item-m{
+    min-height: auto;
+}
+.certif-heading-m {
+    font-size: 20px;
+    text-align: center;
+    margin: 18px;
+}
+
+
+.certif-badge-girds-m {
+margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.certif-badge-girds-m img{
+    width: 60px;
+    margin: 0 4px;
+}
+
+
 
 @media only screen and (max-width: 647px) {
 
