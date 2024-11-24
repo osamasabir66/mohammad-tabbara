@@ -1660,7 +1660,7 @@ font-size: 16px;
 @media only screen and (max-width: 647px) {
 
     .desktop{
-        display: none;
+        display: none !important;
        }
        .mobile{
         display: block;
