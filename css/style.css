@@ -1899,6 +1899,7 @@ margin-bottom: 20px;
 .f-45{
     font-size: 46px !important;
 }
+.w-46{width: 46%;}
 @media only screen and (max-width: 647px) {
 
     .desktop{
@@ -1923,5 +1924,10 @@ margin-bottom: 20px;
     .navbar-light .navbar-brand img {
         width: 130px;
     }
-    
+    .btn {
+        font-size: 11px !important;
+    }
+    .btn img {
+        width: 20px;
+    }
   }
