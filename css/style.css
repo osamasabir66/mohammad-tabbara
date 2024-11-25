@@ -79,7 +79,7 @@ h6,
 /*** Button ***/
 .btn {
     transition: .5s;
-    padding: 10px 22px !important;
+    padding: 10px 12px !important;
     font-size: 14px !important;
 }
 
@@ -645,7 +645,7 @@ display: inline-block;
 }
 
 .small-btn{
-    padding: 13px 20px !important;
+    padding: 12px !important;
     font-size: 14px !important;
 }
 .white-font{
@@ -964,6 +964,7 @@ display: inline-block;
     display: block;
     padding: 8px;
     color: #fff;
+    width: fit-content;
 }
 
 .form-floating>label {
@@ -1458,7 +1459,7 @@ input[type=number] {
 
 .mobile-main-banner h5 {
     color: #fff;
-    font-size: 16px;
+    font-size: 13px;
     line-height: 26px;
 }
 .mobile-main-banner p{
@@ -1488,7 +1489,7 @@ input[type=number] {
     border: 2px solid #7136d7 !important;
     color:#7136d7 !important;
     background: none !important;
-    padding: 9px 22px !important;
+    padding: 9px !important;
     font-weight: 600;
 }
 .m-25{
@@ -1548,7 +1549,7 @@ input[type=number] {
 }
 
 .big-heading-m{
-    font-size: 52px;
+    font-size: 45px;
     font-family: mainfontbold !important;
     text-align: center;
     color: rgb(23 24 27 / 0%);
@@ -1879,6 +1880,22 @@ margin-bottom: 20px;
     bottom: 2px;
     margin-right: 8px;
 }
+
+.btn-arrowup{
+    position: relative;
+    top: 4px;
+}
+.navactive {
+    background: #ffffff36;
+    padding: 6px 10px;
+    border-radius: 1px 1px 11px 1px !important;
+}
+.t-30{
+    top:30px
+}
+.t-45{
+    top:45px
+}
 @media only screen and (max-width: 647px) {
 
     .desktop{
@@ -1900,4 +1917,8 @@ margin-bottom: 20px;
     .navbar-brand {
          margin-right: 0px;
     }
+    .navbar-light .navbar-brand img {
+        width: 130px;
+    }
+    
   }
