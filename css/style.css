@@ -1744,13 +1744,13 @@ font-size: 16px;
 
 .tab-m {
     background: #dedede;
-    padding: 8px;
+    padding: 8px 0;
     border-radius: 8px;
 }
 
 .mobile-tab {
     font-size: 13px !important;
-    padding: 10px 20px !important;
+    padding: 10px 12px !important;
     border-radius: 10px !important;
 }
 .experience-item-m {
@@ -1815,7 +1815,70 @@ margin-bottom: 20px;
 }
 
 
+.certif-heading {
+    font-size: 20px;
+    text-align: center;
+    margin: 18px;
+    border: 2px solid #7136d7 !important;
+    color: #7136d7 !important;
+}
+/* .certif-heading:hover{
+    border: 2px solid #7136d7 !important;
+    background: #040113 !important;
+} */
+.basic-heading img{
+    width: 100%;
+}
 
+.certif-badge-girds {
+margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+.certif-badge-girds img{
+    width: 90px;
+    margin: 0 4px;
+}
+
+
+.skills-section-bg{
+    background: url(../img/skills-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+}
+
+.about-item-d{
+    min-height: 210px;
+}
+.about-item-d h5{
+    font-size: 20px;
+    font-weight: bolder !important;
+}
+
+
+.expertise-heading{
+    font-size: 34px;
+    margin-top: 50px;
+}
+.expertise-list h1{
+    font-size: 24px;
+    color: #Fff;
+    padding: 16px;
+}
+.expertise-list ul{
+    padding: 5px;
+}
+.expertise-list li {
+    list-style: none;
+    padding: 8px;
+}
+.expertise-list img{
+    width: 22px;
+    position: relative;
+    bottom: 2px;
+    margin-right: 8px;
+}
 @media only screen and (max-width: 647px) {
 
     .desktop{
@@ -1833,5 +1896,8 @@ margin-bottom: 20px;
     .sticky-top.navbar-light {
         position: relative;
         background: #fff;
+    }
+    .navbar-brand {
+         margin-right: 0px;
     }
   }
