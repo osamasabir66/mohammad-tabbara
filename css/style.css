@@ -1896,6 +1896,9 @@ margin-bottom: 20px;
 .t-45{
     top:45px
 }
+.f-45{
+    font-size: 46px !important;
+}
 @media only screen and (max-width: 647px) {
 
     .desktop{
