@@ -446,7 +446,8 @@ h6,
     display: inline-block;
     margin: 0 36px;
     position: relative;
-    top: 13px;
+    top: 13px;  
+    right: 20px;
 }
 
 
@@ -459,10 +460,15 @@ h6,
     border-bottom: 1px solid #dedede;
 }
 .owl-dot:first-child{
-    margin-left: 0;
+    margin-left: 0;    
+    position: relative;
+    right: 0;
+    z-index: 10;
 }
 .owl-dot:last-child{
-    margin-right: 0;
+    margin-right: 0;    
+    position: relative;
+    right: 56px;
 }
 .owl-dots .active{
 background: none;
@@ -472,9 +478,8 @@ background: none;
     content: url('../img/experience-rocket-m.png');
     margin-right: 6px;
     position: relative;
-    top: 10px;
+    top: 7px;
   }
-
 
 .testimonial-carousel .owl-nav .owl-prev:hover,
 .testimonial-carousel .owl-nav .owl-next:hover {
