@@ -406,12 +406,12 @@ h6,
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item {
-    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background: none;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item h5,
 .testimonial-carousel .owl-item.center .testimonial-item p {
-    color: #FFFFFF !important;
+    color: #000 !important;
 }
 
 .testimonial-carousel .owl-nav {
@@ -423,17 +423,58 @@ h6,
 .testimonial-carousel .owl-nav .owl-prev,
 .testimonial-carousel .owl-nav .owl-next {
     margin: 0 12px;
-    width: 50px;
+    width: 120px;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #FFFFFF;
-    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
-    border-radius: 60px;
+    color: #384cd7;
+    background: none !important;
+    border-radius: 5px 5px 10px 5px;
     font-size: 18px;
     transition: .5s;
+    border: 2px solid #384cd7;
+    padding: 10px;
 }
+
+
+.owl-carousel .owl-dot{
+    background: #b9b9b9;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    display: inline-block;
+    margin: 0 36px;
+    position: relative;
+    top: 13px;
+}
+
+
+
+.owl-dots {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #dedede;
+}
+.owl-dot:first-child{
+    margin-left: 0;
+}
+.owl-dot:last-child{
+    margin-right: 0;
+}
+.owl-dots .active{
+background: none;
+  }
+
+  .owl-dots .active::before {
+    content: url('../img/experience-rocket-m.png');
+    margin-right: 6px;
+    position: relative;
+    top: 10px;
+  }
+
 
 .testimonial-carousel .owl-nav .owl-prev:hover,
 .testimonial-carousel .owl-nav .owl-next:hover {
@@ -1755,9 +1796,13 @@ font-size: 16px;
     border-radius: 10px !important;
 }
 .experience-item-m {
-    padding-left: 20px;
-    margin-left: 20px;
-    border-left: 1px solid #dedede;
+    margin: 20px 0;
+    padding: 10px;
+    border-bottom: 6px solid #5b46d7;
+    height: 600px;
+    overflow-y: scroll;
+    border-radius: 10px 10px 0 0 !important;
+    margin-top: 80px;
 }
 
 .experience-item-m h1{
@@ -1797,6 +1842,18 @@ font-size: 16px;
 .about-item-m{
     min-height: auto;
 }
+
+.custom-corner{
+    /* clip-path: polygon(0 0,100% 0,100% calc(100% - 50px),calc(100% - 50px) 100%,0 100%); */
+    background: url(../img/skills-box.png) 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    box-shadow: none !important;
+}
+
+
+
 .certif-heading-m {
     font-size: 20px;
     text-align: center;
@@ -1868,17 +1925,53 @@ margin-bottom: 20px;
     padding: 16px;
 }
 .expertise-list ul{
-    padding: 5px;
+    padding: 5px 5px 5px 45px;
+    list-style-image: url('../img/btn-icon/check-circle.png');
 }
 .expertise-list li {
-    list-style: none;
     padding: 8px;
+}
+.expertise-list li span{
+    display:inline-block;
+    vertical-align:middle;
+    margin-top:-14px;
+    margin-left:-5px;
 }
 .expertise-list img{
     width: 22px;
     position: relative;
     bottom: 2px;
     margin-right: 8px;
+}
+
+
+.expertise-list-m {
+    background: #fff;
+    margin: 10px 0px;
+}
+.expertise-list-m h1{
+    font-size: 24px;
+    color: #000;
+    padding: 16px;
+}
+.expertise-list-m ul{
+    padding: 5px 5px 5px 45px;
+    list-style-image: url('../img/btn-icon/check-circle-m.png');
+}
+.expertise-list-m li {
+    padding: 8px;
+    font-size: 14px;
+}
+.expertise-list-m li span{
+    display:inline-block;
+    vertical-align:middle;
+    margin-top:-10px;
+    margin-left:-5px;
+}
+
+.expertise-list-m img{
+        float: right;
+        padding-top: 40px;
 }
 
 .btn-arrowup{
@@ -1896,10 +1989,25 @@ margin-bottom: 20px;
 .t-45{
     top:45px
 }
+.t-60{
+    top:60px
+}
 .f-45{
     font-size: 46px !important;
 }
+.f-25{
+    font-size: 25px !important;
+}
+.m-r-20{
+    margin-right: 20px;
+}
 .w-46{width: 46%;}
+
+.zeroopacity{
+    opacity: 0 !important;
+    cursor: default !important;
+}
+
 @media only screen and (max-width: 647px) {
 
     .desktop{

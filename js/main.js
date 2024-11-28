@@ -76,15 +76,15 @@
 
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
-        autoplay: true,
+        autoplay: false,
         smartSpeed: 1000,
         loop: true,
         center: true,
-        dots: false,
+        dots: true,
         nav: true,
         navText : [
-            '<i class="bi bi-chevron-left"></i>',
-            '<i class="bi bi-chevron-right"></i>'
+            '<span class="">PREVIOUS</span>',
+            '<span class="">NEXT</span>'
         ],
         responsive: {
             0:{
