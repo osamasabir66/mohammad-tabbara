@@ -445,13 +445,10 @@ h6,
     border-radius: 100%;
     display: inline-block;
     margin: 0 26px;
-    position: relative;
-    top: 13px;  
+    position: relative; 
     right: 20px;
 }
 
-
-.owl-dots {}
 
 .owl-dots {
     position: absolute;
