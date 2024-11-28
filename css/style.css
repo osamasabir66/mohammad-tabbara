@@ -445,7 +445,8 @@ h6,
     border-radius: 100%;
     display: inline-block;
     margin: 0 26px;
-    position: relative; 
+    position: relative;
+    top: 13px !important;  
     right: 20px;
 }
 
