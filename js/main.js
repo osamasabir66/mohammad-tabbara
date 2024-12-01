@@ -149,3 +149,11 @@ function openCity(evt, cityName) {
     document.getElementById(cityName).style.display = "flex";
     evt.currentTarget.className += " tablinksactive";
   }
+
+
+
+
+
+
+
+
