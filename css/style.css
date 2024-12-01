@@ -483,8 +483,9 @@ background: none !important;
   .owl-dots .active::before {
     content: url('../img/experience-rocket-m.png');
     margin-right: 6px;
-    position: relative;
-    top: 7px;
+    position: absolute;
+    top: -9px;
+    left: 0px;
     z-index: 1;
   }
 
@@ -1825,7 +1826,7 @@ font-size: 16px;
     margin: 20px 8px;
     padding: 10px;
     border-bottom: 6px solid #5b46d7;
-    height: 600px;
+    height: auto;
     overflow-y: scroll;
     border-radius: 10px 10px 0 0 !important;
     margin-top: 80px;
@@ -2060,6 +2061,36 @@ margin-bottom: 20px;
     font-size: 58px;
     top: 7px;
 }
+.tagname{
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.tagname-m{
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 10px;
+}
+.c-stars-m{
+    background:#fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    right: 16px;
+}
+.c-moon-m{
+    position: relative;
+    z-index: 100;
+    background: #F44336;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    right: 35px;
+    font-size: 35px;
+    top: 7px;
+}
+
+.slideshow-container{display: none;}
 @media only screen and (max-width: 647px) {
 
     .desktop{
