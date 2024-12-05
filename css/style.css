@@ -1752,7 +1752,7 @@ font-size: 16px;
 
 .mobile-main-banner-02 h1{
     font-weight: 900 !important;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     margin-bottom: 12px;
 }
@@ -2130,5 +2130,41 @@ margin-bottom: 20px;
     }
     .btn img {
         width: 20px;
+    }
+
+    .custom-bg-04 {
+        background: none;
+        background-repeat: none;
+        background-size: unset;
+        height: auto;
+        margin-bottom: 0px;
+    }
+    .project-d-section-bg {
+        padding-top: 0px;
+    }
+    .prev {
+        left: -10px !important;
+    }
+    .next {
+        right: -10px !important;
+    }
+    .hero-header .py-5 {
+        padding-top: 0rem !important;
+        padding-bottom: 0rem !important;
+    }
+    .project-d-item h1 {
+        font-size: 24px;
+    }
+    .project-d-item h5 {
+        font-size: 18px;
+    }
+    .project-d-item {
+        text-align: justify;
+    }
+    .project-d-item p {
+        font-size: 16px;
+    }
+    .m-m-0{
+        margin: 0px !important;
     }
   }
