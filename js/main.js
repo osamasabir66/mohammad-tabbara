@@ -152,6 +152,37 @@ function openCity(evt, cityName) {
 
 
 
+  function openCitymobile(evt, cityName) {
+    var i, tabcontentmobile, tablinksmobile;
+    tabcontentmobile = document.getElementsByClassName("tabcontentmobile");
+    for (i = 0; i < tabcontentmobile.length; i++) {
+      tabcontentmobile[i].style.display = "none";
+    }
+    tablinksmobile = document.getElementsByClassName("tablinksmobile");
+    for (i = 0; i < tablinksmobile.length; i++) {
+      tablinksmobile[i].className = tablinksmobile[i].className.replace(" tablinksactivemobile", "");
+    }
+    document.getElementById(cityName).style.display = "flex";
+    evt.currentTarget.className += " tablinksactivemobile";
+  }
+
+
+  function openCitymobile02(evt, cityName) {
+    var i, tabcontentmobile02, tablinksmobile02;
+    tabcontentmobile02 = document.getElementsByClassName("tabcontentmobile02");
+    for (i = 0; i < tabcontentmobile02.length; i++) {
+      tabcontentmobile02[i].style.display = "none";
+    }
+    tablinksmobile02 = document.getElementsByClassName("tablinksmobile02");
+    for (i = 0; i < tablinksmobile02.length; i++) {
+      tablinksmobile02[i].className = tablinksmobile02[i].className.replace(" tablinksactivemobile02", "");
+    }
+    document.getElementById(cityName).style.display = "flex";
+    evt.currentTarget.className += " tablinksactivemobile02";
+  }
+
+
+
 
 
 
